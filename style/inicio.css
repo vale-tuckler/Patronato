@@ -4,61 +4,94 @@
 body{
     margin-left: 5%;
     margin-right:5%;
+    
 }
 
 h1{
+    padding:1.5%;
+    background-color: #acf3ae;    /*#45b6fe --> bright blue */
+    border-radius: 15px;
+    color: #043927;
     text-align: center;
     margin:3%;
 }
-#denunciar{
-    background-color: #50c878;
-    color: white;
-    margin: 10%;
-    padding: 2.5%;
+h2{
+    color: #043927;
+    text-align: center;
+    padding:1.5%;
     border-radius: 15px;
-    font-size:large; 
-    margin-left: 40%;
 }
+#denunciar{
+    
+    background-color: #a60004;
+    /*background-color: #043927 -->Beautiful dark green /*#ea3c53 */ /*#50c878*/;
+    color: #b3b3b3;
+    display: flex;
+    padding: 5%;
+    margin-left: 35%;
+    margin-top: 11%;
+    margin-bottom:25%;
+    border-radius: 20px;
+    font-size: 180%; 
+}
+
 #izquierda{
+    display:inline-block;
     width:45%;
     margin-left: 2%;
+    margin-bottom: 30%;
     float:right;
-    display:inline-block;
+    text-align:justify;
+    border-radius: 10px;
+    background-color: #acf3ae;
+    color:#043927;
+    line-height:180%;
+    padding:1.5%;
 }
 
 #derecha{
-    width: 45%;
     display:inline-block;
+    width: 45%;
+    margin-bottom: 30%;
+    text-align:justify;
+    background-color: #acf3ae;
+    border-radius:10px;
+    color:#043927;
+    line-height:180%;
+    padding:1.5%;
+
 }
 
-.home-slide figure{
-    position: relative;
-    width:100%;
-    margin:2%;
-    left:1%;
-    animation:18s slider infinite;
-}
-.images{
+.home-slide, .stories-slide{
+    width: 95%;
+    margin: auto;
     overflow: hidden;
-    width:20%;
-    height:20% ;
-    margin: 2%;
-    float:left;
-    border-radius: 15px;
+}
+.home-slide ul, .stories-slide ul{
+    display: flex;
+    width: 400%;
+    padding: 0;
+    animation: 20s slider infinite;
+}
+.home-slide li, .stories-slide li{
+    list-style: none;
+    width: 100%;
+}
+.home-slide img, .stories-slide img{
+    width:99%;
+    height: 80%;
+    border-radius: 20px;
 }
 @keyframes slider{
-    0%{
-       left:0%;
-    }
-    25%{
-       left:0;
-    }
-    30%{
-       left:-100%;
-    }
-    45%{
-       left:-100%;
-    }
-    50%{
-       left:-200%;
-    }
+    0%{margin-left:0%;}
+    20%{margin-left:0;}
+
+    25%{margin-left:-100%;}
+    45%{margin-left:-100%;}
+
+    50%{margin-left:-200%;}
+    70%{margin-left: -200%}
+
+    75%{margin-left:-300%;}
+    100%{margin-left: -300%}
+}
