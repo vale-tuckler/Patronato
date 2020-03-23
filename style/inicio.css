@@ -6,15 +6,6 @@ body{
     margin-right:5%;
     
 }
-
-h1{
-    padding:1.5%;
-    background-color: #acf3ae;    /*#45b6fe --> bright blue */
-    border-radius: 15px;
-    color: #043927;
-    text-align: center;
-    margin:3%;
-}
 h2{
     color: #043927;
     text-align: center;
@@ -23,14 +14,15 @@ h2{
 }
 #denunciar{
     
-    background-color: #a60004;
+    background-color: #b9d870;     /*#043927;*/
     /*background-color: #043927 -->Beautiful dark green /*#ea3c53 */ /*#50c878*/;
-    color: #b3b3b3;
+    color:#494848;
     display: flex;
     padding: 5%;
+    /*margin-top: -60%;*/
     margin-left: 35%;
-    margin-top: 11%;
-    margin-bottom:25%;
+    margin-right: 30%;
+    margin-bottom:50%;
     border-radius: 20px;
     font-size: 180%; 
 }
@@ -43,7 +35,7 @@ h2{
     float:right;
     text-align:justify;
     border-radius: 10px;
-    background-color: #acf3ae;
+    /*background-color: #b9d870;*/
     color:#043927;
     line-height:180%;
     padding:1.5%;
@@ -54,32 +46,72 @@ h2{
     width: 45%;
     margin-bottom: 30%;
     text-align:justify;
-    background-color: #acf3ae;
+    /*background-color: #b9d870;*/
     border-radius:10px;
     color:#043927;
     line-height:180%;
     padding:1.5%;
 
 }
+.flex-container{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;   
+    margin-bottom: 1%;
+    margin-top:3%;
+    /*background-color:#b9d870;*/
 
-.home-slide, .stories-slide{
-    width: 95%;
-    margin: auto;
+    
+}
+#logo-principal{
+    width:15%;
+    height:15%; 
+    margin-right:30%;
+}
+#menu-icon{
+    width:13%;
+    height:30%;
+    margin-left:60%;
+    margin-top:12%;
+    padding:1%;
+    border-radius:40px;
+}
+#menu-icon:hover{
+    background-color:#b3b3b3;
+}
+.Masc-izq{
+    display:inline;
+    margin-right:35%;
+    float: left;
+
+}
+.Masc-der{
+    display:inline;
+    margin-left:35%;
+    margin-top:0;
+    float:right;
+}
+.home-slide{
+    display:inline-block;
+    margin-top:8%;
+    margin-left:8%;
+    width: 90%;
+    /*margin: auto;*/
     overflow: hidden;
 }
-.home-slide ul, .stories-slide ul{
+.home-slide ul{
     display: flex;
     width: 400%;
     padding: 0;
     animation: 20s slider infinite;
 }
-.home-slide li, .stories-slide li{
+.home-slide li{
     list-style: none;
     width: 100%;
 }
-.home-slide img, .stories-slide img{
-    width:99%;
-    height: 80%;
+.home-slide img{
+    width:95%;
+    height: 60%;
     border-radius: 20px;
 }
 @keyframes slider{
