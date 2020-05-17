@@ -1,0 +1,50 @@
+
+.h2{
+    font-style: italic;
+    margin-bottom:2%;
+}
+.entrada-formulario{
+    display:block;
+    text-align: justify;
+    padding:0.3%;
+}
+.salud-info{
+    display: block;
+    margin-top:2%;
+    width:400px;
+    height:300px;
+}
+.form{
+    margin: 5%;
+    margin-top: 2%;
+    border: solid 4px green;
+    padding: 2%;
+    border-radius: 20px;
+    box-shadow: 8px 10px 7px -4px #777;
+}
+
+.yes-no{
+    display: inline-block;
+    margin: 1%;
+}
+
+#button{
+    margin-left:40%;
+    margin-top:2%;
+    font-weight:bolder;
+    font-size:110%;
+    border: 3px solid;
+    border-radius:7px;
+    padding: 1.5% !important;
+
+  }
+
+  .question{
+      font-weight: bolder;
+      font-style: italic;
+  }
+
+  #header{
+      font-style:normal;
+      font-size: 250%;
+  }

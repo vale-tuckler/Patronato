@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding:0;
+}
+.pets{
+    margin:1.5%;
+    margin-top:5%;
+    margin-bottom: 5%;
+    display:flex;
+    justify-content:space-between;
+}
+.text-center{
+    margin-top:3%;
+    padding:5%;
+    background-color: #20bf55;
+background-image: linear-gradient(315deg, #20bf55 0%, #01baef 74%);        
+    /*background-color: #08e1ae;
+    background-image: linear-gradient(315deg, #08e1ae 0%, #98de5b 74%);*/
+    color:white;
+    font-weight:bold;
+}
+    
