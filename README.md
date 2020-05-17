@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,3 +67,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+=======
+# Patronato
+ Repositorio del sitio web: "Patronato para la Defensa y Bienestar Animal de Coahuila A.C"
+>>>>>>> 20bb3f32a1bca9d4fafde7c53a5b56931ebb64ca
