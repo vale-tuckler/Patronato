@@ -2,7 +2,7 @@ import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import '../styles/Carrusel.css';
 import { Link } from 'react-router-dom';
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 import perro1 from '../images/Axel.png';
 import perro2 from '../images/Rody.png';
 import perro3 from '../images/Rocky.png';

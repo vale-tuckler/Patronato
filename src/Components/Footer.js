@@ -52,7 +52,7 @@ const Footer = () => (
                     <a href="https://wa.me/5218441221814?text=%C2%A1Hola!,%20estoy%20interesado%20en%20adoptar%20un%20perrito/gatito" className="SM-link">
                        <WhatsApp src = {whatsapp} alt="WhatsApp Logo" />
                     </a>
-                    <a href='https://www.facebook.com/padebac/' className="SM-link">
+                    <a href='mailto: paloma_alejandra@yahoo.com' className="SM-link">
                         <Email src = {email} alt =" Email logo"/>
                     </a>                                                                
             </Wrapper>
