@@ -1,6 +1,5 @@
 import React from 'react'
-import { Card, Button, CardHeader, CardBody,
-     CardText, CardImg } from 'reactstrap'
+import Card from 'react-bootstrap/Card';
 import '../styles/Tarjeta.css'
 //import Formulario from './FormularioAdopcion.js'
 import { Link } from 'react-router-dom'
@@ -16,11 +15,11 @@ class Tarjeta extends React.Component{
 render(){
     return(
         <div id="container">
-            <Card Card body outline color="primary" className="body">
-            <CardHeader id="header">{this.props.name}</CardHeader>
-                <CardImg variant="top" src={this.props.img} />
-                    <CardBody>
-                        <CardText>
+            <Card className="body">
+            <Card.Header id="header">{this.props.name}</Card.Header>
+                <Card.Img variant="top" src={this.props.img} />
+                    <Card.Body>
+                        <Card.Text>
                                 <div id="text">
                                     {this.props.text}
                                 </div>
@@ -38,15 +37,15 @@ render(){
                                             <figcaption className="caption">{this.props.figcaption3}</figcaption>
                                     </p>
                                 </div>
-                        </CardText>
+                        </Card.Text>
                         <Link to ='/inicio/adoptar/formulario-adopcion'>
-                            <Button id="button" outline color="success">Adoptar</Button>
+                            <button id="button" className="btn btn-success space-around">Adoptar</button>
                         </Link>
-                    </CardBody>
+                    </Card.Body>
             </Card>
         </div>
     )
   }
 }
 
-export default Tarjeta
+export default Tarjeta;

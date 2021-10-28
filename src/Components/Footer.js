@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 import '../styles/Footer.css'
 import styled from 'styled-components';
 import facebook from '../images/black-facebook.png';

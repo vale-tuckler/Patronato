@@ -1,18 +1,4 @@
-.carousel{
-    width: 50%;
-    margin: auto;    
-    color: Black;
-    border-radius: 10px;          
-}
 
-#primer-titulo{
-    margin-top:1.5%;
-    margin-bottom:3%;
-    background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
-    color: white;
-    font-weight:bold;      
-    padding: 4%;
-}
 .caption,h3{
     font-size: 120% !important;   
 }
@@ -25,12 +11,139 @@ h3{
 .carousel-item{
     width: 100%;
     height: 100%;
-    border-radius: 15px; 
+    border-radius: 12px; 
     border: 4px solid #f25278;    
-}
 
-#main-carousel{
-    background-image: url('../images/colors.jpg');
-    width:100%;
-    height: 140vh;
+}
+@media screen and (min-width:300px){
+    .carousel{
+        width: 90%;
+        margin: auto;    
+        color: Black;
+        border-radius: 8px;          
+    }
+    #primer-titulo{
+        margin-top:1.5%;
+        margin-bottom:3%;
+        background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+        color: white;
+        font-weight:bold;      
+        padding: 4%;
+    }    
+    .caption,h3{
+        font-size: 150% !important;   
+    }
+    #main-carousel{
+        background-image: url('../images/colors.jpg');
+        width:100%;
+        height: 80vh !important;
+    }    
+}
+@media screen and (min-width:400px){
+    .carousel{
+        width: 85%;
+        margin: auto;    
+        color: Black;
+        border-radius: 8px;          
+    }
+    #primer-titulo{
+        margin-top:1.5%;
+        margin-bottom:3%;
+        background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+        color: white;
+        font-weight:bold;      
+        padding: 4%;
+    }
+    #main-carousel{
+        background-image: url('../images/colors.jpg');
+        width:100%;
+        height: 85vh !important;
+    }
+        
+}
+@media screen and (min-width:460px){    
+    #main-carousel{
+        background-image: url('../images/colors.jpg');
+        width:100%;
+        height: 95vh !important;
+    }        
+}
+@media screen and (min-width:500px){
+    #main-carousel{
+        background-image:url('../images/colors.jpg');
+        width:100%;
+        height:105vh !important;
+    }
+}
+@media screen and (min-width:560px){
+    #main-carousel{
+        background-image:url('../images/colors.jpg');
+        width:100%;
+        height:112vh !important;
+    }
+}
+@media screen and (min-width:600px){
+    .carousel{
+        width: 85%;
+        margin: auto;    
+        color: Black;
+        border-radius: 10px;          
+    }
+    .caption{
+        font-size:115% !important;
+    }
+    #primer-titulo{
+        margin-top:1.5%;
+        margin-bottom:3%;
+        background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+        color: white;
+        font-weight:bold;      
+        padding: 4%;
+    }
+    #main-carousel{
+        background-image: url('../images/colors.jpg');
+        width:100%;
+        height: 130vh !important;
+    }    
+}
+@media screen and (min-width:670px){
+    .caption{
+        font-size:115% !important;
+    }
+    #main-carousel{
+        background-image: url('../images/colors.jpg');
+        width:100%;
+        height: 140vh !important;
+    }    
+}
+@media screen and (min-width:720px){
+    #main-carousel{
+        height:155vh!important;
+    }
+}
+@media screen and (min-width:800px){
+    .carousel{
+        width: 50%;
+        margin: auto;    
+        color: Black;
+        border-radius: 10px;          
+    }   
+    #primer-titulo{
+        margin-top:1.5%;
+        margin-bottom:3%;
+        background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+        color: white;
+        font-weight:bold;      
+        padding: 4%;
+    }
+    #main-carousel{
+        background-image: url('../images/colors.jpg');
+        width:100%;
+        height: 160vh;
+    }    
+}
+@media screen and (min-width:900px){
+    #main-carousel{
+        height:160vh!important;
+    }
 }
