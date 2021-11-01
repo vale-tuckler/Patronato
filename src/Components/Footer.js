@@ -1,61 +1,27 @@
 import React from 'react'
 import '../styles/Footer.css'
-import styled from 'styled-components';
 import facebook from '../images/black-facebook.png';
 import whatsapp from '../images/black-whatsapp.png';
 import email from '../images/email.png';
 
-const Wrapper = styled.div `
-    width: 50vw;
-    height: 30%;
-    align-items: center; /*For elements in the Y axis */
-    margin-left: 23%;
-    justify-content: space-between;
-`;
-const Facebook = styled.img `    
-    display: inline-flex;
-    justify-content: center;
-    width: 5%;
-    height:10%; 
-    margin-left:1.5%;
-    margin-top: 2%;   
-`;
-const WhatsApp = styled.img `
-    display:inline-flex;    
-    justify-content: center;
-    width: 5%;
-    height:10%;
-    margin-left:1.5%;
-    margin-top: 2%;
-`;
-
-const Email = styled.img `
-display: inline-flex;
-    justify-content: center;
-    width: 5%;
-    height:10%;    
-    margin-left:1.5%;
-    margin-top: 2%;
-`;
-
 const Footer = () => (
     <React.Fragment>
-        <footer id="footer">
-            <div>                
-                &copy;2020 <b>Padebac</b>                
-            </div>
-            <Wrapper>
+        <nav id="footer" className="navbar">            
+            <div className="navbar-nav main-container">
                     <a href='https://www.facebook.com/padebac/' className="SM-link">
-                        <Facebook src = {facebook}  alt = "Facebook logo" />
+                        <img src = {facebook}  alt = "Facebook logo" className="img" id="facebook"/>
                     </a>
                     <a href="https://wa.me/5218441221814?text=%C2%A1Hola!,%20estoy%20interesado%20en%20adoptar%20un%20perrito/gatito" className="SM-link">
-                       <WhatsApp src = {whatsapp} alt="WhatsApp Logo" />
+                       <img src = {whatsapp} alt="WhatsApp Logo" className="img" id="whatsapp"/>
                     </a>
                     <a href='mailto: paloma_alejandra@yahoo.com' className="SM-link">
-                        <Email src = {email} alt =" Email logo"/>
+                        <img src = {email} alt =" Email logo" className="img" id="mail"/>
                     </a>                                                                
-            </Wrapper>
-        </footer>
+            </div>
+            <div className="copyright">                
+                &copy;2021 <b>Padebac</b>                
+            </div>
+        </nav>
     </React.Fragment>
 )
 export default Footer
